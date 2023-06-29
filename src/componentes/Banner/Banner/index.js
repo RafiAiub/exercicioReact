@@ -1,3 +1,12 @@
-import { Banner } from "./Banner";
+import './Banner.css';
+import BannerImage from '../imagens/Banner.png';
 
-export default Banner;
+const BannerComponent = () => {
+  return (
+    <div>
+      <img src={BannerImage} alt="Logo" className='Banner'/>
+    </div>
+  );
+};
+
+export default BannerComponent;
